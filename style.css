@@ -1,0 +1,82 @@
+a{
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+a:hover {
+    background-color: #0056b3;
+}
+body{
+         font-family: Arial, sans-serif;
+            margin: 1;
+            padding: 0;
+            background-color:#FFFFFF;
+            text-align: center;
+}
+input{
+  background-color:   #F1F1F1;
+}
+h1{
+    color: #333;
+    margin-top:50px ;
+}
+.box{
+    padding: 5px;
+}
+.box:hover{
+    border-color:#0056b3
+}
+.box input{
+    width: calc(100% - 40px); /* Adjust padding and width to accommodate the icon */
+        padding: 10px 30px 10px; 
+        font-size: 16px;
+        /* color: #F1F1F1; */
+        border-radius: 8px;
+        border: 1px solid #ccc;
+       width: 250px; 
+        background-position: 10px center; 
+        background-repeat: no-repeat;
+        padding-left: 10px;
+}
+.submit-btn{
+    width: 250px;
+    background-color: #007bff;
+    height: 30px;
+    border: 2px solid #ccc; 
+    margin-left: 18px;
+}
+.submit-btn:hover{
+   
+    background-color: #0056b3;
+}
+.error {
+    border-color: red; /* Change border color to red for error indication */
+}
+
+.box input:focus {
+    border-color: blue; /* Change border color to blue when input field is focused */
+}
+#photo{
+    margin-top: 200px;
+    margin-left: 450px;
+ }
+ #upload{
+    margin-top: 20px;
+    margin-left: 450px;
+ }
+ .alert{
+    display: none;
+ }
+.cancelbtn, .signupbtn{
+    float: left;
+    width: 50%;
+}
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+      width: 100%;
+    }
+  }
